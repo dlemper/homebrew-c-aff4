@@ -8,14 +8,14 @@ class CAff4 < Formula
   depends_on "autoconf" => :build
   depends_on "automake" => :build
   depends_on "libtool" => :build
-  depends_on "snappy" => :build
-  depends_on "lz4" => :build
-  depends_on "raptor" => :build
-  depends_on "tclap" => :build
-  depends_on "uriparser" => :build
-  depends_on "spdlog" => :build
-  depends_on "yaml-cpp" => :build
-  depends_on "pkg-config" => :build
+  depends_on "snappy"
+  depends_on "lz4"
+  depends_on "raptor"
+  depends_on "tclap"
+  depends_on "uriparser"
+  depends_on "spdlog"
+  depends_on "yaml-cpp"
+  depends_on "pkg-config"
 
   def install
     system "./autogen.sh"
