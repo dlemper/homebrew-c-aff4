@@ -1,4 +1,4 @@
-class Afflib < Formula
+class CAff4 < Formula
   desc "Advanced Forensic Format"
   homepage "https://github.com/dlemper/c-aff4"
   url "https://github.com/dlemper/c-aff4.git"
